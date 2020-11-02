@@ -16,6 +16,14 @@
 		584CEDAD254FB7AB00DE046C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 584CEDAC254FB7AB00DE046C /* main.m */; };
 		584CEDB7254FB7AC00DE046C /* TTTableIndexViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 584CEDB6254FB7AC00DE046C /* TTTableIndexViewDemoTests.m */; };
 		584CEDC2254FB7AC00DE046C /* TTTableIndexViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 584CEDC1254FB7AC00DE046C /* TTTableIndexViewDemoUITests.m */; };
+		584CEDE0254FB89D00DE046C /* SectionIndexViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 584CEDD3254FB89D00DE046C /* SectionIndexViewManager.m */; };
+		584CEDE1254FB89D00DE046C /* SectionIndexViewConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 584CEDD7254FB89D00DE046C /* SectionIndexViewConfiguration.m */; };
+		584CEDE2254FB89D00DE046C /* UITableView+TableViewSectionIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 584CEDD8254FB89D00DE046C /* UITableView+TableViewSectionIndexView.m */; };
+		584CEDE3254FB89D00DE046C /* SectionIndexViewItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 584CEDD9254FB89D00DE046C /* SectionIndexViewItemView.m */; };
+		584CEDE4254FB89D00DE046C /* SectionIndexViewItemIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 584CEDDD254FB89D00DE046C /* SectionIndexViewItemIndicator.m */; };
+		584CEDE5254FB89D00DE046C /* SectionIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 584CEDDE254FB89D00DE046C /* SectionIndexView.m */; };
+		584CEDEC254FB8AE00DE046C /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 584CEDE9254FB8AE00DE046C /* data.json */; };
+		584CEDED254FB8AE00DE046C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 584CEDEB254FB8AE00DE046C /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,22 @@
 		584CEDBD254FB7AC00DE046C /* TTTableIndexViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTableIndexViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		584CEDC1254FB7AC00DE046C /* TTTableIndexViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTableIndexViewDemoUITests.m; sourceTree = "<group>"; };
 		584CEDC3254FB7AC00DE046C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584CEDD3254FB89D00DE046C /* SectionIndexViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionIndexViewManager.m; sourceTree = "<group>"; };
+		584CEDD4254FB89D00DE046C /* SectionIndexViewItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionIndexViewItemView.h; sourceTree = "<group>"; };
+		584CEDD5254FB89D00DE046C /* SectionIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionIndexView.h; sourceTree = "<group>"; };
+		584CEDD6254FB89D00DE046C /* SectionIndexViewItemIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionIndexViewItemIndicator.h; sourceTree = "<group>"; };
+		584CEDD7254FB89D00DE046C /* SectionIndexViewConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionIndexViewConfiguration.m; sourceTree = "<group>"; };
+		584CEDD8254FB89D00DE046C /* UITableView+TableViewSectionIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TableViewSectionIndexView.m"; sourceTree = "<group>"; };
+		584CEDD9254FB89D00DE046C /* SectionIndexViewItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionIndexViewItemView.m; sourceTree = "<group>"; };
+		584CEDDA254FB89D00DE046C /* SectionIndexViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionIndexViewManager.h; sourceTree = "<group>"; };
+		584CEDDB254FB89D00DE046C /* SectionIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionIndex.h; sourceTree = "<group>"; };
+		584CEDDC254FB89D00DE046C /* SectionIndexViewConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionIndexViewConfiguration.h; sourceTree = "<group>"; };
+		584CEDDD254FB89D00DE046C /* SectionIndexViewItemIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionIndexViewItemIndicator.m; sourceTree = "<group>"; };
+		584CEDDE254FB89D00DE046C /* SectionIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionIndexView.m; sourceTree = "<group>"; };
+		584CEDDF254FB89D00DE046C /* UITableView+TableViewSectionIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+TableViewSectionIndexView.h"; sourceTree = "<group>"; };
+		584CEDE9254FB8AE00DE046C /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		584CEDEA254FB8AE00DE046C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		584CEDEB254FB8AE00DE046C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +128,10 @@
 		584CED99254FB7AA00DE046C /* TTTableIndexViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				584CEDE9254FB8AE00DE046C /* data.json */,
+				584CEDEA254FB8AE00DE046C /* Person.h */,
+				584CEDEB254FB8AE00DE046C /* Person.m */,
+				584CEDD2254FB89D00DE046C /* TableViewSectionIndexView */,
 				584CED9A254FB7AA00DE046C /* AppDelegate.h */,
 				584CED9B254FB7AA00DE046C /* AppDelegate.m */,
 				584CED9D254FB7AA00DE046C /* SceneDelegate.h */,
@@ -136,6 +164,26 @@
 			);
 			path = TTTableIndexViewDemoUITests;
 			sourceTree = "<group>";
+		};
+		584CEDD2254FB89D00DE046C /* TableViewSectionIndexView */ = {
+			isa = PBXGroup;
+			children = (
+				584CEDD3254FB89D00DE046C /* SectionIndexViewManager.m */,
+				584CEDD4254FB89D00DE046C /* SectionIndexViewItemView.h */,
+				584CEDD5254FB89D00DE046C /* SectionIndexView.h */,
+				584CEDD6254FB89D00DE046C /* SectionIndexViewItemIndicator.h */,
+				584CEDD7254FB89D00DE046C /* SectionIndexViewConfiguration.m */,
+				584CEDD8254FB89D00DE046C /* UITableView+TableViewSectionIndexView.m */,
+				584CEDD9254FB89D00DE046C /* SectionIndexViewItemView.m */,
+				584CEDDA254FB89D00DE046C /* SectionIndexViewManager.h */,
+				584CEDDB254FB89D00DE046C /* SectionIndex.h */,
+				584CEDDC254FB89D00DE046C /* SectionIndexViewConfiguration.h */,
+				584CEDDD254FB89D00DE046C /* SectionIndexViewItemIndicator.m */,
+				584CEDDE254FB89D00DE046C /* SectionIndexView.m */,
+				584CEDDF254FB89D00DE046C /* UITableView+TableViewSectionIndexView.h */,
+			);
+			path = TableViewSectionIndexView;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -242,6 +290,7 @@
 				584CEDAA254FB7AB00DE046C /* LaunchScreen.storyboard in Resources */,
 				584CEDA7254FB7AB00DE046C /* Assets.xcassets in Resources */,
 				584CEDA5254FB7AA00DE046C /* Main.storyboard in Resources */,
+				584CEDEC254FB8AE00DE046C /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +316,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				584CEDA2254FB7AA00DE046C /* ViewController.m in Sources */,
+				584CEDE0254FB89D00DE046C /* SectionIndexViewManager.m in Sources */,
+				584CEDED254FB8AE00DE046C /* Person.m in Sources */,
+				584CEDE2254FB89D00DE046C /* UITableView+TableViewSectionIndexView.m in Sources */,
+				584CEDE1254FB89D00DE046C /* SectionIndexViewConfiguration.m in Sources */,
 				584CED9C254FB7AA00DE046C /* AppDelegate.m in Sources */,
+				584CEDE5254FB89D00DE046C /* SectionIndexView.m in Sources */,
+				584CEDE4254FB89D00DE046C /* SectionIndexViewItemIndicator.m in Sources */,
 				584CEDAD254FB7AB00DE046C /* main.m in Sources */,
 				584CED9F254FB7AA00DE046C /* SceneDelegate.m in Sources */,
+				584CEDE3254FB89D00DE046C /* SectionIndexViewItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
